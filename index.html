@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Attendence Register</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <h1>Attendence Portal</h1> 
+ <div class="container">   
+<div class="present">Total Present <div id="p">0</div> </div>
+<div class="absent">Total Absent <div id="a">0</div> </div>
+</div>
+<div class="main">
+    <table>
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Name</th>
+                <th>FatherName</th>
+                <th>Age</th>
+                <th>Roll No</th>
+                <th>Class</th>
+                <th>Present</th>
+                <th>Absent</th>
+            </tr>
+        </thead>
+        <tbody id="userTable" ></tbody>
+    </table>
+</div>
+    <script src="app.js"></script>
+</body>
+</html>
